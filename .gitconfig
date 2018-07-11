@@ -1,11 +1,8 @@
-[user]
-	name = Jonathon Gore
-	email = jackgore@hotmail.ca
-
 [alias]
 	l  = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commi    t --date=relative --exclude=origin/build_* --remotes --branches
 	ll = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all 	
 	lb = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ad) %C(bold blue)<%an>%Creset' --abbrev-commi    t --date=relative
+	ci = commit
 	co = checkout
 	st = status
 	br = branch   
