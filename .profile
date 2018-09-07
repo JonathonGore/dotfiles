@@ -21,6 +21,11 @@ alias dcu='docker-compose up -d'
 alias dcd='docker-compose down'
 alias g++14='g++ -std=c++14'
 
+if [ "$(uname)" != "Darwin" ]; then
+	# Use colour always only on non-mac
+	alias ls='ls -G --color=always'
+fi
+
 complete -d cd # Only autocomplete directories when using cd
 
 PS1='\w > '
