@@ -21,6 +21,7 @@ set number
 set ruler
 set incsearch
 set showmatch
+set backspace=indent,eol,start
 syntax on
 
 " Makes it so line numbers are not copied.
