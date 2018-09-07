@@ -10,3 +10,6 @@
 	ff = merge --ff-only
 	unstage = reset HEAD --
 	last = log -1 HEAD
+[user]
+	name = Jack Gore
+	email = jgore@edu.uwaterloo.ca
